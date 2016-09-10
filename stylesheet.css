@@ -1,0 +1,54 @@
+body {
+	background-color: #BDE3F6;
+}
+
+#header {
+	background-color: ;
+	border: 2px solid black;
+}
+
+#container{
+	border: 2px solid black;
+}
+
+#left-box {
+	float: left;
+	background-color: #3BA5D0;
+	color: #FFFFFF;
+	border: 2px solid black;
+}
+#photo {
+	height: 200px;
+	align-content: center;
+	padding: 3px 3px 3px 3px;
+	background-color: #ffffff;
+	border: 2px solid #134475;
+	border-radius: 5px;
+}
+
+#right-box {
+	background-color: #3BA5D0;
+	border: 2px solid black;
+}
+
+.#xeperience-box {
+	background-color: #ffffff;
+	border: 2px solid black;
+}
+
+.experience-1 {
+	border: 2px solid black;
+}
+
+#studies-box {
+	background-color: #ffffff;
+	border: 2px solid black;
+}
+
+.study {
+	border: 2px solid black;
+}
+
+#footer {
+	border: 2px solid black;
+}
