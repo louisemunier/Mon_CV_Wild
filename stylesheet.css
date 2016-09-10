@@ -3,17 +3,15 @@ body {
 }
 
 header h1 {
-	align-content: center;
-	height: 100px;
-}
-
-#header {
-	background-color: ;
+	text-align: center;
+	height: 75px;
+	font-size: 2.5em;
 	border: 2px solid black;
 }
 
 #container{
 	border: 2px solid black;
+	padding: 15px 100px 0px 100px;
 }
 
 #left-box {
@@ -22,21 +20,33 @@ header h1 {
 	color: #FFFFFF;
 	border: 2px solid black;
 	text-align: justify;
+	width: 500px;
+	padding: 15px 15px 15px 15px;
+}
+
+#left-box p {
+	width: 
 }
 #photo {
 	height: 200px;
-	align-content: center;
+	align-content: ;
+	margin: auto;
 
 }
 
 #right-box {
-	background-color: #3BA5D0;
 	border: 2px solid black;
+	padding: 15px 15px 15px 15px;
+	width: 1100px;
+	float: right;
+
 }
 
-.#xeperience-box {
+#experience-box {
 	background-color: #ffffff;
 	border: 2px solid black;
+	padding: 15px 15px 15px 15px;
+
 }
 
 .experience-1 {
@@ -46,6 +56,8 @@ header h1 {
 #studies-box {
 	background-color: #ffffff;
 	border: 2px solid black;
+	padding: 15px 15px 15px 15px;
+
 }
 
 .study {
