@@ -19,7 +19,6 @@
          url('Fonts/texgyreadventor_regular_macroman/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -30,8 +29,12 @@ body {
 header h1 {
 	text-align: center;
 	height: 75px;
-	font-size: 3em;
+	font-size: 3.2em;
 	font-family: 'black_jackregular', arial, verdana, serif;
+}
+
+.material-icons {
+	padding: 0px 10px 0px 10px;
 }
 
 #container{
@@ -44,7 +47,7 @@ header h1 {
 	color: #FFFFFF;
 	text-align: justify;
 	width: 500px;
-	padding: 15px 15px 15px 15px;
+	padding: 20px 15px 30px 15px;
 	border-radius: 20px;
 }
 
@@ -65,16 +68,15 @@ header h1 {
 }
 
 #photo {
-	height: 200px;
-	align-content: center;
-	margin-left: 150px;
-	border-radius: 100px;
-	padding-top: 20px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
 
 }
 
 #right-box {
-	padding: 15px 15px 15px 15px;
+	padding: 0px 15px 15px 15px;
 	border-radius: 20px;
 	width: 1100px;
 	float: right;
@@ -84,7 +86,7 @@ header h1 {
 #experience-box {
 	background-color: #ffffff;
 	border-radius: 20px;
-	padding: 15px 15px 15px 25px;
+	padding: 10px 15px 15px 25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 }
@@ -96,15 +98,15 @@ header h1 {
 	font-family: 'texgyreadventorregular', arial, serif;
 }
 
-.experience-1 h2 {
+.experience-1 h1 {
 	font-family: 'black_jackregular', arial, verdana, serif;
 }
 
 #studies-box {
 	background-color: #ffffff;
 	border-radius: 20px;
-	padding: 15px 15px 15px 25px;
-	margin-top: 30px;
+	padding: 10px 15px 35px 25px;
+	margin-top: 40px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -114,10 +116,28 @@ header h1 {
 	text-align: justify;
 	font-family: 'texgyreadventorregular', arial, serif;
 }
-.study h2 {
+.study h1 {
 	font-family: 'black_jackregular', arial, verdana, serif;
 
 }
 
 #footer {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 15px 15px 15px 30px;
+	height: 200px;
+	width: 1650px;
+	display: flex;
+	flex-direction: column;
+}
+
+#footer p {
+	font-family: 'texgyreadventorregular', arial, serif;
+	border: 2px solid black;
+}
+
+#footer h2 {
+	font-family: 'black_jackregular', arial, verdana, serif;
+	display: block;
+	border: 1px solid red;
 }
